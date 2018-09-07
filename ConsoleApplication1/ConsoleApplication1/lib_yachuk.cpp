@@ -108,7 +108,7 @@ void tick_tack::play(void) {
 	} 
 	while (player != 1 && player != 2);
 	first = player;
-	int inf = check();
+	int inf = 0;
 	while (inf == 0) {
 		cout << "Player " << player << endl;
 		print();
@@ -132,18 +132,5 @@ void tick_tack::play(void) {
 	if (inf == 2) cout << "2 player is win!";
 	if (inf == 3) cout << "Draw!";
 	cout << endl;
-	
-	/*
-	int t;
-	while (1 == 1) {
-		cout << "1 - play again" << endl;
-		cout << "0 - end" << endl;
-		cout << "Your choise: ";
-		cin >> t;
-		if (t == 1 || t == 0) break;
-		else cout << "Error! Repeat your choise!" << endl;
-	}
-	if (t == 1) play();	
-	*/
 
 }

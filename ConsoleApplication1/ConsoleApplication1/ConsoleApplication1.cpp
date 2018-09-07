@@ -4,14 +4,7 @@
 #include "lib_yanchuk.h"
 #include <iostream>
 
-int main() {/*
-	int n,k;
-	cout << "Enter the size of the field: ";
-	cin >> n;
-
-	tick_tack game(n);
-	game.play();
-*/
+int main() {
 	while (true){
 		int n,k;
 		cout << "Enter the size of the field: ";
