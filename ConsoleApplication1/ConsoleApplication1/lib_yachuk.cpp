@@ -36,8 +36,7 @@ int tick_tack::check(int i, int j, int x, int y) {
 			break;
 		}
 		i += x;
-		j += y;
-	}
+		j += y;	}
 	return flag;
 }
 int tick_tack::check(void) {
@@ -67,7 +66,7 @@ int tick_tack::check(void) {
 	return ans;
 }
 bool tick_tack::strok_check(int i, int j) {
-	if (i > 0 && i < matr[i].size() - 1 && j>0 && j < matr[i].size() - 1);
+	if (i > 0 && i < matr.size() - 1 && j>0 && j < matr.size() - 1);
 	else return false;
 	if (matr[i][j] == 0) return true;
 	else return false;
@@ -103,8 +102,11 @@ void tick_tack::stroke(int i, int j, int player) {
 }
 void tick_tack::play(void) {
 	int player;
-	cout << "who goes first (1/2): ";
-	cin >> player;
+	do {
+		cout << "who goes first (only 1 or 2): ";
+		cin >> player;
+	} 
+	while (player != 1 && player != 2);
 	first = player;
 	int inf = check();
 	while (inf == 0) {
@@ -130,15 +132,18 @@ void tick_tack::play(void) {
 	if (inf == 2) cout << "2 player is win!";
 	if (inf == 3) cout << "Draw!";
 	cout << endl;
-
+	
+	/*
 	int t;
 	while (1 == 1) {
 		cout << "1 - play again" << endl;
 		cout << "0 - end" << endl;
 		cout << "Your choise: ";
 		cin >> t;
-		if (t == 1 || t == 0);
+		if (t == 1 || t == 0) break;
 		else cout << "Error! Repeat your choise!" << endl;
 	}
-	if (t == 1) play();
+	if (t == 1) play();	
+	*/
+
 }

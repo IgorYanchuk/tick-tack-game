@@ -1,20 +1,32 @@
-﻿  ConsoleApplication1.cpp
-ConsoleApplication1.cpp(8): warning C4101: k: неиспользованная локальная переменная
-  lib_yachuk.cpp
-lib_yachuk.cpp(12): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(50): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(70): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(81): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(88): warning C4018: <: несоответствие типов со знаком и без знака
-lib_yachuk.cpp(94): warning C4018: <: несоответствие типов со знаком и без знака
-  Создание кода...
-  AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
-  ConsoleApplication1.vcxproj -> D:\PPViS\lab11\ConsoleApplication1\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> D:\PPViS\lab11\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)
+﻿Сборка начата 07.09.2018 23:59:21.
+     1>Проект "D:\pivas\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib lib_yachuk.cpp
+         lib_yachuk.cpp
+     1>lib_yachuk.cpp(12): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(44): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(49): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(69): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(85): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(87): warning C4018: <: несоответствие типов со знаком и без знака
+     1>lib_yachuk.cpp(93): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\pivas\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\pivas\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\ConsoleApplication1.obj
+         Debug\lib_yachuk.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+         ConsoleApplication1.vcxproj -> D:\pivas\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Сборка проекта "D:\pivas\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.10
