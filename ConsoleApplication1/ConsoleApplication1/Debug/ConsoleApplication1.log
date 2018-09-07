@@ -1,0 +1,20 @@
+﻿  ConsoleApplication1.cpp
+ConsoleApplication1.cpp(8): warning C4101: k: неиспользованная локальная переменная
+  lib_yachuk.cpp
+lib_yachuk.cpp(12): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(50): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(70): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(81): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(88): warning C4018: <: несоответствие типов со знаком и без знака
+lib_yachuk.cpp(94): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+  ConsoleApplication1.vcxproj -> D:\PPViS\lab11\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> D:\PPViS\lab11\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)
