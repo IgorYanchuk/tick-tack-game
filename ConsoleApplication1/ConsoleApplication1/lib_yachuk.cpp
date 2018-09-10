@@ -6,7 +6,7 @@
 tick_tack::tick_tack(int number) {
 	matr.resize(number + 2);
 	for (int i = 0; i <= number + 1; i++) {
-		matr[i].resize(number+2);
+		matr[i].resize(number + 2);
 	}
 
 	for (int i = 0; i < matr.size(); i++) {
@@ -36,7 +36,8 @@ int tick_tack::check(int i, int j, int x, int y) {
 			break;
 		}
 		i += x;
-		j += y;	}
+		j += y;
+	}
 	return flag;
 }
 int tick_tack::check(void) {
@@ -54,11 +55,11 @@ int tick_tack::check(void) {
 	ans = check(1, 1, 1, 1);
 	if (ans != 0) return ans;
 
-	ans = check(1, matr.size()-2, 1, -1);
+	ans = check(1, matr.size() - 2, 1, -1);
 	if (ans != 0) return ans;
 
 	ans = 3;
-	for (int i = 1; i < matr.size()-1; i++) {
+	for (int i = 1; i < matr.size() - 1; i++) {
 		for (int j = 1; j < matr[i].size() - 1; j++) {
 			if (matr[i][j] == 0) return 0;
 		}
@@ -77,7 +78,7 @@ int tick_tack::next_player(int number) {
 }
 void tick_tack::print(void) {
 
-	for (int i = 1; i < (matr.size() - 1)*2; i++) {
+	for (int i = 1; i < (matr.size() - 1) * 2; i++) {
 		cout << "-";
 	}
 	cout << endl;
@@ -90,7 +91,7 @@ void tick_tack::print(void) {
 			if (matr[i][j] == 0) cout << " |";
 		}
 		cout << endl;
-		for (int i = 1; i < (matr.size() - 1)*2; i++) {
+		for (int i = 1; i < (matr.size() - 1) * 2; i++) {
 			cout << "-";
 		}
 		cout << endl;
@@ -99,38 +100,4 @@ void tick_tack::print(void) {
 }
 void tick_tack::stroke(int i, int j, int player) {
 	matr[i][j] = player;
-}
-void tick_tack::play(void) {
-	int player;
-	do {
-		cout << "who goes first (only 1 or 2): ";
-		cin >> player;
-	} 
-	while (player != 1 && player != 2);
-	first = player;
-	int inf = 0;
-	while (inf == 0) {
-		cout << "Player " << player << endl;
-		print();
-		int x, y;
-		while (1 == 1) {
-			cout << "Coordinates: ";
-			cin >> x >> y;
-			if (strok_check(x, y) == true) break;
-			else cout << "Error! Repeat your choise!" << endl;
-		}
-		stroke(x, y, player);
-		player = next_player(player);
-		inf = check();
-		system("pause");
-		system("cls");
-	}
-
-	print();
-
-	if (inf == 1) cout << "1 player is win!";
-	if (inf == 2) cout << "2 player is win!";
-	if (inf == 3) cout << "Draw!";
-	cout << endl;
-
 }
